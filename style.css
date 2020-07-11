@@ -1,0 +1,148 @@
+
+/* This style is not responsive but upcoming videos on https://youtube.com/manowproduction we will cover how to make this website into responsive */
+
+body{
+    background: #F5A513;
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: 1fr 4fr 0.5fr 1fr;
+}
+
+body #navbar .Logo{
+    height: 97px;
+    width: 97px;
+    margin-left: 135.67px;
+    margin-top: 78.44px;
+}
+
+.orange{
+    margin-left: 30px;
+    margin-top: 118px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight:bolder;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.services{
+    
+    margin-top: 119px;
+    
+    
+}
+
+.about{
+    margin-top: 119px;
+    
+}
+
+h3{
+    background-color: #D22525;
+    width: 72px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 0.1fr 1.5fr 2fr 2fr;
+}
+
+.ulasha .h1, .h2{
+     
+    width: 30px;
+    height: 340px;
+    background: black;
+}
+
+.org1{
+    width: 472px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 0;
+    object-fit: cover;
+}
+
+button{
+    height: 53px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    background: black;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.h1{
+    margin-top: 20px;
+    /* animation: h1 1s 2; */
+    
+
+}
+
+.h2{
+    
+   margin-top: -190px;
+    height: 270px;
+    margin-left: 40px;
+   animation: h2 1s 3;
+}
+
+.take{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    justify-content: left;
+    line-height: 60px;
+    margin-top: 90px;
+    
+    
+}
+
+h4{
+    font-family: 'Bahnschrift';
+    font-size: 40px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/* Animation */
+
+@keyframes h2{
+    from{
+        height: 0;
+
+    }
+
+    to{
+        height: 270px;
+    }
+   
+   
+}
+
+@keyframes h1{
+    from{
+        height: 0;
+
+    }
+
+    to{
+        height: 270px;
+    }
+   
+}
